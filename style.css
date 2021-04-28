@@ -15,6 +15,9 @@ html, body {
   padding: 0;
   text-align: justify;
   /* If an error comes up, check here! */
+  min-height: 1oovh;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav1 ul {
@@ -94,7 +97,7 @@ html, body {
   background-color: #56ccf2;
   color: aqua;
   padding: .25em 0;
-
+  margin-top: auto;
 }
 
 .artist-name-3{
